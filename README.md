@@ -1,4 +1,4 @@
-# Multiple-Threads and Process fork() call
+# Multiple Process using Unix fork() call
 
 Write a multi-process program, called multi_process.c, using Unix fork() system call to
 calculate average, minimum, maximum, median value. This program will be passed a
