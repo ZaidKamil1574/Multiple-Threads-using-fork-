@@ -1,5 +1,10 @@
 # Multiple-Threads and Process fork() call
 
+Write a multi-process program, called multi_process.c, using Unix fork() system call to
+calculate average, minimum, maximum, median value. This program will be passed a
+series of numbers on the command line and will then create four separate child worker
+processes
+
 multi_process.c
 
 For Unix() enviroment.
@@ -10,6 +15,4 @@ For Unix() enviroment.
                        gcc multi_process.c -o multi_process
                        ./multi_process 90 81 78 95 79 72 85
 
-multi_thread.java
-- Open in Java IDE - preferably IntelliJ IDE
-- Paste source code and run Main.java
+
